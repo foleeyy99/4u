@@ -31,8 +31,8 @@
 </head>
 <body>
   <script>
-    const PASS = "chabuddy";
-    const ok = sessionStorage.getItem("ok_chabuddy") === "1" || prompt("Enter passcode:") === PASS;
+    const PASS = "love";
+    const ok = sessionStorage.getItem("ok_love") === "1" || prompt("Enter passcode:") === PASS;
     if (!ok) { document.body.innerHTML = "<h1 style='color:#fff;text-align:center;margin-top:30vh'>Not found</h1>"; throw new Error("No access"); }
     sessionStorage.setItem("ok_chabuddy", "1");
   </script>
