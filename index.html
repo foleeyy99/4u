@@ -34,7 +34,7 @@
     const PASS = "love";
     const ok = sessionStorage.getItem("ok_love") === "1" || prompt("Enter passcode:") === PASS;
     if (!ok) { document.body.innerHTML = "<h1 style='color:#fff;text-align:center;margin-top:30vh'>Not found</h1>"; throw new Error("No access"); }
-    sessionStorage.setItem("ok_chabuddy", "1");
+    sessionStorage.setItem("ok_love", "1");
   </script>
   <img src="photo.png" alt="You will always be my best Chabuddy">
   <footer>Private link — protected with a passcode</footer>
